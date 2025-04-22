@@ -1,5 +1,5 @@
 import * as express from 'express'; 
-import app from '../config';
+import app from '../Config/config';
 import { exchangeRefreshTokenForNewAccessToken } from '../Utilities/accountUtilities'
 import * as psn from 'psn-api';
 
