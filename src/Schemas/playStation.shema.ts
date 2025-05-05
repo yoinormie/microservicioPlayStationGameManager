@@ -6,3 +6,7 @@ export const searchUserANSchema = z.object({
     .max(16,{message : "Debes proporcionar un usuario válido"})
 });  
 
+export const getGamesWithAIDSchema = z.object({
+    accountID : z.string()
+    .length(19,{message: "El accountID es inválido"})
+});
