@@ -1,5 +1,5 @@
 import {Response, Request} from 'express';
-import {userPlayStationNetwork} from '../Models/playStation.user'
+import { Axios } from 'axios';
 import { getAccountName, getAccountGames } from '../Services/playstation.service'
 import * as psn from 'psn-api';
 import { searchUserANSchema,  getGamesWithAIDSchema} from '../Schemas/playStation.shema';
