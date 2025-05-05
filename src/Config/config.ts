@@ -1,4 +1,4 @@
-import express = require('express') 
+import express from 'express'
 /**
  * Variable que define qué va a usar el servidor (en este caso express con json) y la exporta para que la usen otras clases
  */
