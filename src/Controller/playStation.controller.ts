@@ -4,7 +4,7 @@ import { getAccountName, getAccountGames } from '../Services/playstation.service
 import * as psn from 'psn-api';
 import { searchUserANSchema,  getGamesWithAIDSchema} from '../Schemas/playStation.shema';
 
-const accessCode = await psn.exchangeNpssoForAccessCode("PIMCgzdsGiw9BTu2cFlGGGsLfy70QmtnoZI21rCN8MX3fjjMLcMO1QHdoJ1qtwvm")
+const accessCode = await psn.exchangeNpssoForAccessCode("process.env.MYNPSSO")
 const authorization = await psn.exchangeAccessCodeForAuthTokens(accessCode)
 
 export const getUserWithAN = async (req: Request, res: Response) => {
