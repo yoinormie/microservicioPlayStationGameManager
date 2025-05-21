@@ -1,7 +1,8 @@
 import { TrophyCounts } from "psn-api"
 
 /**
- * Clase para representar la propiedad de un juego ocn el usuario
+ * Clase para representar la propiedad de un juego con el usuario
+ * También muestra las características en ese juego
  */
 export class gameProperty{
     private accountID : string

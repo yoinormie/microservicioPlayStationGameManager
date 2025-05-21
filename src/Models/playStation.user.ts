@@ -1,5 +1,5 @@
 /**
- * Clase que define a un usuario con sus características 
+ * Clase que define a un usuario con sus características básicas para identificarlo
  */
 export class userPlayStationNetwork {
     private onlineID: string

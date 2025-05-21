@@ -1,5 +1,7 @@
 import {z} from 'zod'
-
+/**
+ * Schemas que dan una capa extra de protección contra errores y body's inválidos.
+ */
 export const searchUserANSchema = z.object({
     username : z.string()
     .min(3,{message : "Debes proporcionar un usuario válido"})
